@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.flexible{
+	display: flex;
+
+	flex-direction: column;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.main{
+	padding: 20px 0;
+}
+
+.file-attach{
+	margin-top: 15px;
+}
+
+.file-input{
+	margin-top: 5px;
+}
+
+.words-table{
+	margin-top: 25px;
+}
+
+.words-table thead{
+	background-color: rgba(0, 0, 0, 0.10);
+}
+
+.words-table td, th{
+	padding: 5px 10px;
+}

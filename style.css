@@ -24,6 +24,16 @@
 	margin-top: 5px;
 }
 
+.file-sort-select{
+}
+
+.button{
+	margin-top: 10px;
+
+	width: 75px;
+	height: auto;
+}
+
 .words-table{
 	margin-top: 25px;
 }

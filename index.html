@@ -9,8 +9,15 @@
 	<main class="main flexible">
 		<h1>Word Counter</h1>
 		<div class="file-attach flexible">
-			<p>Please attach a file to count unique words.</p>
-			<input type="file" class="file-input">
+			<p>Please attach a file, choose sort method and press Enter.</p>
+			<form class="form">
+				<input type="file" class="file-input">
+				<select class="file-sort-select">
+					<option value="1">In ascending order</option>
+					<option value="2" selected>In descending order</option>
+					<option value="3">In alphabetical order</option>
+				</select>
+			</form>
 		</div>
 	</main>
 </body>
